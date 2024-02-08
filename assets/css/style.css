@@ -169,6 +169,10 @@ h3{
     padding: 20px;
 }
 
+.padding-30{
+    padding: 30px;
+}
+
 .padding-bottom-40{
     padding-bottom: 40px;
 }
@@ -198,6 +202,10 @@ h3{
 .wrap{
     display: flex;
     flex-wrap: wrap;
+}
+
+.stretch{
+    align-items: stretch;
 }
 /* end UTILITY */
 
