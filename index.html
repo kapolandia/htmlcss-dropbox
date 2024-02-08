@@ -28,7 +28,7 @@
 
     <main>
         <section class="row w-100 blue-background">
-            <div class="big-container padding-70 column padding-bottom-0">
+            <div class="big-container padding-top-70 column">
                 
                 <div class="row">
                     <h1>
@@ -36,7 +36,7 @@
                     </h1>
                 </div>
                 
-                <div class="row margin-top-60" style="align-items: flex-start;position: relative;bottom: -40px;">
+                <div class="row margin-top-30 flex-start relative-bottom w-100">
                     <div class="column w-30">
                         <p>
                             Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili
@@ -51,10 +51,10 @@
                             Annulla in qualsiasi momento
                         </p>
 
-                        <i class="fa-solid fa-arrow-down margin-top-30 size-50"></i>
+                        <i class="fa-solid fa-arrow-down margin-top-60 size-50"></i>
                     </div>
 
-                    <div class="column w-70">
+                    <div class="w-70">
                         <img src="./assets/img/img/jumbo.png" alt="">
                     </div>
                 </div>
@@ -63,12 +63,187 @@
         </section>
 
         <section class="row w-100 margin-top-100">
-            <div class="container column">
+            <div class="container column flex-start w-100">
                 <h2>
                     Trova il piano business che fa per te
                 </h2>
-                <div class="row">
-                    <input type="radius">
+
+                <div class="row margin-top-60">
+                    <input type="radio" id="monthly">
+                    <label for="monthly" class="margin-left-5"> Fatturazione mensile</label>
+                    <input type="radio" id="yearly" class="margin-left-50">
+                    <label for="yearly" class="margin-left-5"> Fatturazione annuale</label>
+                </div>
+
+                <div class="row margin-top-60 w-100 space-between-start">
+                    <!-- TABELLA 3 colonne-->
+                    <!-- TABELLA 1-->
+                    <div class="column w-30 border-1 padding-bottom-40">
+                        <div class="row center padding-10 border-bottom">
+                            <i class="fa-solid fa-user"></i>
+                            <p class="margin-left-5">Singolo</p>
+                        </div>
+                        <div class="padding-20 ">
+                            <h3 class="margin-top-30">Professional</h3>
+                            <h5 class="margin-top-20">€ 12.00</h5>
+                            <p class="margin-top-20">/mese</p>
+                            <div class="row flex-start margin-top-60">
+                                <i class="fa-solid fa-user"></i>
+                                <p class="margin-left-5">1 utente</p>
+                            </div>
+                            <div class="row flex-start margin-top-20">
+                                <i class="fa-solid fa-folder"></i>
+                                <p class="margin-left-5">5 TB di spazio di archiviazione sicuro</p>
+                            </div>
+                            <div class="row flex-start margin-top-20">
+                                <i class="fa-solid fa-share-nodes"></i>
+                                <p class="margin-left-5">Funzioni di produttività premium e condivisione file semplice e sicura</p>
+                            </div>
+                            <button class="btn-blue w-100 margin-top-60">
+                                Prova gratis per 30 giorni
+                            </button>
+                            <p class="margin-top-20">oppure <a href="">acquista ora</a></p>
+                            <hr class="w-20 margin-top-60">
+                            <h5 class="margin-top-60">Punti salienti del piano</h5>
+                            <div class="row flex-start margin-top-20">
+                                <i class="fa-solid fa-check blue"></i>
+                                <p class="margin-left-5">
+                                    Invia file fino a 100 GB con Dropbox Transfert
+                                </p>
+                            </div>
+                            <div class="row flex-start margin-top-20">
+                                <i class="fa-solid fa-check blue"></i>
+                                <p class="margin-left-5">
+                                    Cartelle offline su dispositivi mobili
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- TABELLA 2-->
+                    <div class="column w-30 border-1 padding-bottom-40">
+                        <div class="row center padding-10 border-bottom">
+                            <i class="fa-solid fa-user-group"></i>
+                            <p class="margin-left-5">Advanced</p>
+                        </div>
+                        <div class="padding-20 ">
+                            <h3 class="margin-top-30">Professional</h3>
+                            <h5 class="margin-top-20">€ 18.00</h5>
+                            <p class="margin-top-20">/utente/mese</p>
+                            <div class="row flex-start margin-top-60">
+                                <i class="fa-solid fa-user-group"></i>
+                                <p class="margin-left-5">13 o più utenti</p>
+                            </div>
+                            <div class="row flex-start margin-top-20">
+                                <i class="fa-solid fa-folder"></i>
+                                <p class="margin-left-5">Tutto lo spazio di cui ha bisogno il tuo team</p>
+                            </div>
+                            <div class="row flex-start margin-top-20">
+                                <i class="fa-solid fa-share-nodes"></i>
+                                <p class="margin-left-5">Sofisticate funzioni di controllo e per tenere al sicuro tutti i file del tuo team</p>
+                            </div>
+                            <button class="btn-blue w-100 margin-top-60">
+                                Prova gratis per 30 giorni
+                            </button>
+                            <p class="margin-top-20">oppure <a href="">acquista ora</a></p>
+                            <hr class="w-20 margin-top-60">
+                            <h5 class="margin-top-60">Punti salienti del piano</h5>
+                            <div class="row flex-start margin-top-20">
+                                <i class="fa-solid fa-check blue"></i>
+                                <p class="margin-left-5">
+                                    Nessun limite di spazio per i file
+                                </p>
+                            </div>
+                            <div class="row flex-start margin-top-20">
+                                <i class="fa-solid fa-check blue"></i>
+                                <p class="margin-left-5">
+                                    Cartelle offline sui dispositivi mobili
+                                </p>
+                            </div>
+                            <div class="row flex-start margin-top-20">
+                                <i class="fa-solid fa-check blue"></i>
+                                <p class="margin-left-5">
+                                    Risparmio del 50% rispetto alle iscrizioni singole
+                                </p>
+                            </div>
+                            <div class="row flex-start margin-top-20">
+                                <i class="fa-solid fa-check blue"></i>
+                                <p class="margin-left-5">
+                                    Possibilità di inserire nuovi membri del team
+                                </p>
+                            </div>
+                            <div class="row flex-start margin-top-20">
+                                <i class="fa-solid fa-check blue"></i>
+                                <p class="margin-left-5">
+                                    Gestione dei permessi in base ai ruoli
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- TABELLA 3-->
+                    <div class="column w-30 border-1 padding-bottom-40">
+                        <div class="row center padding-10 border-bottom">
+                            <i class="fa-solid fa-building"></i>
+                            <p class="margin-left-5">Enterprise</p>
+                        </div>
+                        <div class="padding-20 ">
+                            <h3 class="margin-top-30">Professional</h3>
+                            <h5 class="margin-top-20">Contattaci</h5>
+                            <p class="margin-top-20">-</p>
+                            <div class="row flex-start margin-top-60">
+                                <i class="fa-solid fa-user"></i>
+                                <p class="margin-left-5">10 o più utenti</p>
+                            </div>
+                            <div class="row flex-start margin-top-20">
+                                <i class="fa-solid fa-folder"></i>
+                                <p class="margin-left-5">Soluzioni personalizzabili per la tua azienda</p>
+                            </div>
+                            <div class="row flex-start margin-top-20">
+                                <i class="fa-solid fa-share-nodes"></i>
+                                <p class="margin-left-5">Assistenza personalizzata per aiutare gli amministratori in una gestione su larga scala</p>
+                            </div>
+                            <button class="btn-blue w-100 margin-top-60">
+                                Prova gratis per 30 giorni
+                            </button>
+                            <p class="margin-top-20">oppure <a href="">acquista ora</a></p>
+                            <hr class="w-20 margin-top-60">
+                            <h5 class="margin-top-60">Punti salienti del piano</h5>
+                            <div class="row flex-start margin-top-20">
+                                <i class="fa-solid fa-check blue"></i>
+                                <p class="margin-left-5">
+                                    Cartelle offline su dispositivi mobili
+                                </p>
+                            </div>
+                            <div class="row flex-start margin-top-20">
+                                <i class="fa-solid fa-check blue"></i>
+                                <p class="margin-left-5">
+                                    Servizio assistenza 24/h
+                                </p>
+                            </div>
+                            <div class="row flex-start margin-top-20">
+                                <i class="fa-solid fa-check blue"></i>
+                                <p class="margin-left-5">
+                                    Possibilità di personalizzazione totale
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- fine TABELLA 3 colonne-->
+            </div>
+            <!-- TABELLA w-100-->
+            <div class="column w-100 border-1 padding-bottom-40 margin-top-60">
+                <div class="row center padding-10 border-bottom">
+                    <i class="fa-solid fa-building"></i>
+                    <p class="margin-left-5">Team</p>
+                </div>
+                <div class="row space-between-start padding-20">
+                    <div class="column">
+                        <h3>Enterprise</h3>
+                        <h5 class="margin-top-30">Contatta l'ufficio vendite per i prezzi</h5>
+                        <p class="margin-top-30">Soluzioni personalizzate e supporto su misura per aiutare i professionisti IT nella gestione su qualsiasi scala</p>
+                    </div>
+                    <button class="btn-blue">
+                        Contatta l'ufficio vendite
+                    </button>
                 </div>
             </div>
         </section>
