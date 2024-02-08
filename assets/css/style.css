@@ -118,6 +118,10 @@ h3{
     width: 20%;
 }
 
+.w-10{
+    width: 10%;
+}
+
 .space-between{
     justify-content: space-between;
 }
@@ -344,3 +348,37 @@ main{
 .magenta{
     color: #61082B;
 }
+
+/* FOOTER */
+
+footer{
+    background-color: #000000;
+    padding-top: 80px;
+    padding-bottom: 30px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+footer .column.w-20 p {
+    color: white;
+    line-height: 2;
+}
+
+footer .column.w-20> :first-child {
+    margin-bottom: 40px;
+}
+
+footer .column.w-20 h3 {
+    color: white;
+}
+
+.grey-color{
+    color: grey;
+}
+
+footer .row.grey-color> :nth-child(2n){
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
